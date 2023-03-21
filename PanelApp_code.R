@@ -32,6 +32,8 @@ final_df <- data.frame(gene_symbol=data_20_genes$gene_data$gene_symbol,
 head(final_df)
 dim(final_df)
 
+write.csv(final_df,”query_result.csv”)
+
 
 #Task
 #Choose an available panel and extract the following information:
